@@ -1,6 +1,7 @@
 #!/bin/sh
 echo "构建开始..."
 echo "开始前端构建..."
+git pull
 cd ./client
 npm install
 npm run build
