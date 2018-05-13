@@ -1,7 +1,8 @@
 #!/bin/sh
 echo "构建开始..."
-echo "开始前端构建..."
+echo "拉取最新代码..."
 git pull
+echo "开始前端构建..."
 cd ./client
 npm install
 npm run build
