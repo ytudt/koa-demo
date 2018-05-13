@@ -7,6 +7,7 @@ class App extends Component {
     setTimeout(() => window.toggleLoad(false));
     return (
       <div className="App">
+      <span class="text">母亲节快乐!!!</span>
       </div>
     );
   }
