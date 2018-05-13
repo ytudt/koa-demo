@@ -2,7 +2,270 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4e8b75-436a-433a-82b6-5b7c573698b6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/https-secret/csr.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/https-secret/file.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/https-secret/private.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/implementation.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/implementation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/optional.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register-shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/bluebird.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/bluebird.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/es6-promise.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/es6-promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/lie.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/lie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/native-promise-only.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/native-promise-only.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/pinkie.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/pinkie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/promise.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/q.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/q.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/rsvp.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/rsvp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/vow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/vow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/when.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/register/when.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/co/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/co/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/co/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/co/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/co/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/content-disposition/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/content-disposition/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/content-disposition/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/content-disposition/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/content-disposition/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/content-type/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/content-type/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/content-type/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/content-type/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/content-type/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookies/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookies/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookies/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookies/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookies/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/deep-equal/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/deep-equal/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/deep-equal/example/cmp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/deep-equal/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/deep-equal/lib/is_arguments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/deep-equal/lib/keys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/deep-equal/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/deep-equal/readme.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/deep-equal/test/cmp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/delegates/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/delegates/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/delegates/License" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/delegates/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/delegates/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/delegates/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/delegates/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/delegates/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/depd/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/depd/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/depd/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/depd/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/depd/lib/browser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/depd/lib/compat/callsite-tostring.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/depd/lib/compat/event-listener-count.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/depd/lib/compat/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/depd/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/destroy/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/destroy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/destroy/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/destroy/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ee-first/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ee-first/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ee-first/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ee-first/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/error-inject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/error-inject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/error-inject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/escape-html/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/escape-html/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/escape-html/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/escape-html/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fresh/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fresh/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fresh/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fresh/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fresh/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-assert/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-assert/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-assert/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-assert/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-assert/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/inherits_browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/.jscs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/.nvmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/test/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/test/corejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/test/uglified.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/keygrip/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/keygrip/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/keygrip/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/keygrip/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/keygrip/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/keygrip/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/keygrip/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/keygrip/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-compose/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-compose/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-compose/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-compose/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-convert/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-convert/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-convert/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-convert/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-convert/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-convert/node_modules/koa-compose/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-convert/node_modules/koa-compose/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-convert/node_modules/koa-compose/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-convert/node_modules/koa-compose/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-convert/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-convert/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-is-json/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-is-json/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-is-json/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-is-json/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa-is-json/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa/lib/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa/lib/context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa/lib/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa/lib/response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/koa/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/media-typer/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/media-typer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/media-typer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/media-typer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/media-typer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime-db/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime-db/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime-db/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime-db/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime-db/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime-db/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime-types/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime-types/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime-types/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime-types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/lib/charset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/lib/encoding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/lib/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/lib/mediaType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/on-finished/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/on-finished/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/on-finished/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/on-finished/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/on-finished/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/only/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/only/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/only/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/only/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/only/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/only/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/parseurl/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/parseurl/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/parseurl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/parseurl/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/parseurl/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/setprototypeof/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/setprototypeof/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/setprototypeof/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/setprototypeof/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/setprototypeof/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/statuses/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/statuses/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/statuses/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/statuses/codes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/statuses/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/statuses/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vary/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vary/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vary/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vary/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,13 +279,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            <state relative-caret-position="150">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/script/build.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/public/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -34,6 +329,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/server/public/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/server/app.js" />
+        <option value="$PROJECT_DIR$/script/build.sh" />
       </list>
     </option>
   </component>
@@ -44,16 +343,18 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/client/node_modules" />
+    <handled-path value="$PROJECT_DIR$/server/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/client/package.json" />
+      <path value="$PROJECT_DIR$/server/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="80" />
-    <option name="y" value="30" />
+    <option name="x" value="337" />
+    <option name="y" value="25" />
     <option name="width" value="1440" />
     <option name="height" value="822" />
   </component>
@@ -62,6 +363,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -69,11 +371,20 @@
               <item name="koa-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="koa-demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="koa-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="koa-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koa-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -84,6 +395,16 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client" />
+      <recent name="$PROJECT_DIR$/server/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/server" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -108,34 +429,35 @@
       <option name="presentableId" value="Default" />
       <updated>1524904537044</updated>
       <workItem from="1524904538276" duration="1947000" />
-      <workItem from="1525867397316" duration="50000" />
+      <workItem from="1525867397316" duration="895000" />
+      <workItem from="1526202571601" duration="2624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1997000" />
+    <option name="totallyTimeSpent" value="5466000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="30" width="1440" height="822" extended-state="0" />
+    <frame x="337" y="25" width="1440" height="822" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13460183" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591261" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3475862" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5737931" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,17 +467,62 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        <state relative-caret-position="131">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret column="480" selection-start-column="480" selection-end-column="480" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
