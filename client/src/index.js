@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import { Provider } from 'react-redux'
+import Translate from './router/translate'
+import store from "./redux/store/configureStore"
+import 'antd/dist/antd.css'
+import './style/style.css'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+ReactDOM.render((
+  <Provider store={store}>
+    <Translate />
+  </Provider>
+), document.getElementById("root"));
