@@ -6,24 +6,12 @@ import { Router, Route, IndexRoute, Redirect, browserHistory } from 'react-route
 import Login from '../pages/login'
 import Main from '../pages/main'
 
-function App(props) {
-  return (
-    <div>
-      {props.children}
-    </div>
-  )
-}
-
-
-// const onEnter = (nextState, replace) => {
-// };
-
 const routes = (
   <Router history={browserHistory}>
-    <Route path="/login" component={App}>
+    <Route path="/login">
       <IndexRoute component={Login}/>
     </Route>
-    <Route path="/" component={App}>
+    <Route path="/">
       <IndexRoute component={Main}/>
     </Route>
     <Redirect from="*" to="/" />

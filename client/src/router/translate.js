@@ -2,26 +2,12 @@ import React from "react"
 import routes from './routes'
 import { connect } from 'react-redux'
 
-import { IntlProvider, addLocaleData } from 'react-intl'
-import en from 'react-intl/locale-data/en'
-import zh from 'react-intl/locale-data/zh'
-import zhCN from '../i18n/cn'
-import enUS from '../i18n/en'
-
-const local = {
-  "en" : enUS,
-  "zh" : zhCN
-};
-
-addLocaleData([...en, ...zh]);
 
 class Translate extends React.Component{
   render(){
     return (
       <div>
-        <IntlProvider locale={this.props.langKey} messages={local[this.props.langKey]}>
-          {routes}
-        </IntlProvider>
+        {routes}
       </div>
     )
   }

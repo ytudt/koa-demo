@@ -3,6 +3,8 @@
  */
 import React from 'react'
 import { connect } from "react-redux"
+import { Layout } from 'antd';
+const { Header } = Layout;
 
 class Login extends React.Component{
   constructor(props) {
@@ -18,7 +20,9 @@ class Login extends React.Component{
   render() {
     return (
       <div className="login-body">
-        我是login
+        <Layout>
+          <Header className="header">header</Header>
+        </Layout>
       </div>
     );
   }

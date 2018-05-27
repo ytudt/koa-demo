@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 import Translate from './router/translate'
 import store from "./redux/store/configureStore"
 import 'antd/dist/antd.css'
-import './style/style.css'
+import './style/style.scss'
 
 ReactDOM.render((
   <Provider store={store}>
