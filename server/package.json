@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ytudt/koa-demo#readme",
   "dependencies": {
+    "compression": "^1.7.2",
     "koa": "^2.5.1",
     "koa-static": "^4.0.2"
   }
