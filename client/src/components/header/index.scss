@@ -1,0 +1,18 @@
+.header-wrap{
+  color: #fff;
+  .logo{
+    display: inline-block;
+    height: 100%;
+    width: 100px;
+    background: url("../../images/logo.png");
+    background-size: cover;
+
+  }
+  .content{
+    display: inline-block;
+  }
+  .login{
+    font-size: 20px;
+
+  }
+}

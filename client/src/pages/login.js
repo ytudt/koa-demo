@@ -3,8 +3,7 @@
  */
 import React from 'react'
 import { connect } from "react-redux"
-import { Layout } from 'antd';
-const { Header } = Layout;
+import Header from '../components/header';
 
 class Login extends React.Component{
   constructor(props) {
@@ -20,9 +19,11 @@ class Login extends React.Component{
   render() {
     return (
       <div className="login-body">
-        <Layout>
-          <Header className="header">header</Header>
-        </Layout>
+        <Header>
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+        </Header>
       </div>
     );
   }

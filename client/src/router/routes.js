@@ -8,13 +8,13 @@ import Main from '../pages/main'
 
 const routes = (
   <Router history={browserHistory}>
-    <Route path="/login">
+    <Route path="/">
       <IndexRoute component={Login}/>
     </Route>
-    <Route path="/">
+    <Route path="/login">
       <IndexRoute component={Main}/>
     </Route>
-    <Redirect from="*" to="/" />
+    <Redirect from="*" to="/login" />
   </Router>
 );
 
